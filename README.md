@@ -1,2 +1,21 @@
-# DataAnalysisPipeline
- A modular data pipeline built using OOP in Python to automate data loading, cleaning, preprocessing, and model evaluation. Scalable, reusable, and optimized for machine learning workflows.
+creating a virtual environment
+```
+python3 -m venv venv
+```
+
+activating the virtual environment
+
+on mac
+```
+source venv/bin/activate
+```
+
+on vindows
+```
+venv\Scripts\activate 
+```
+
+downlaoding packages
+```
+pip install pandas scikit-learn numpy 
+```
