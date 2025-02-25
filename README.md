@@ -10,7 +10,7 @@ on mac
 source venv/bin/activate
 ```
 
-on vindows
+on windows
 ```
 venv\Scripts\activate 
 ```
