@@ -4,8 +4,8 @@ from src.feature_engineer import FeatureEngineer
 from src.model_evaluator import ModelEvaluator
 
 def main():
-   file_path = "data/*.csv"
-   target_column = "target_column"
+   file_path = "data/your_dataset.csv" # path to your dataset
+   target_column = "target_column" # name of the target column
 
    loader = DataLoader(file_path)
    data = loader.load_data()
